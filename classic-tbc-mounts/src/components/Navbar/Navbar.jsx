@@ -1,12 +1,17 @@
-import './FooterStyles.css';
+import './NavbarStyles.css';
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
-    <div className="">
-   
+    <div className="navbarContainer">
+      <div className="navbarLogo">
+
+      </div>
+      <div className="navbarLinks">
+
+</div>
     </div>
   );
 }
 
-export default Navbar;
+

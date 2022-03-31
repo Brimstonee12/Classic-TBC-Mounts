@@ -1,4 +1,14 @@
-.container {
-    height: 100%;
-    
+.navbarContainer {
+    height: 250px;
+    position: sticky;
+}
+
+.navbarLogo {
+    height:70%;
+    background: transparent;
+}
+
+.navbarLinks {
+    height:30%;
+    background: darkgrey;
 }
