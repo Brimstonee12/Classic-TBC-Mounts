@@ -4,11 +4,41 @@
 }
 
 .navbarLogo {
-    height:70%;
+    height: 70%;
     background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.navbarLinks {
-    height:30%;
-    background: darkgrey;
+.navbarLinksContainer {
+    display: flex;
+    height: 30%;
+}
+
+.navbarLink {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: #23261d;
+}
+
+.navbarLink:hover {
+    filter: brightness(1.2); 
+}
+
+.navbarLinkActive {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background: #23261d;
+    text-decoration: none;
+    filter: brightness(1.5); 
+}
+
+
+.navbarTitle {
+    font-size: 20px;
+    color: gold;
 }
